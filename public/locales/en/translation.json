@@ -1,0 +1,79 @@
+{
+  "today": "Today",
+  "horoscope": "Horoscope for today",
+  "back": "Back",
+  "signs": [
+    {
+      "name": "Aries",
+      "sign": "aries",
+      "period": "March 21 - April 19",
+      "pictureUrl": "https://i.pinimg.com/564x/f2/f8/e3/f2f8e3168c00561108f203d251ad7939.jpg"
+    },
+    {
+      "name": "Taurus",
+      "sign": "taurus",
+      "period": "April 20 - May 20",
+      "pictureUrl": "https://i.pinimg.com/564x/3d/e3/a6/3de3a6063483028f7e43dc549413625c.jpg"
+    },
+    {
+      "name": "Gemini",
+      "sign": "gemini",
+      "period": "May 21 - June 20",
+      "pictureUrl": "https://i.pinimg.com/564x/94/bd/b1/94bdb116cd7572b161b8b00dbfdc2eb3.jpg"
+    },
+    {
+      "name": "Cancer",
+      "sign": "cancer",
+      "period": "June 21 - July 22",
+      "pictureUrl": "https://i.pinimg.com/564x/0c/c1/13/0cc11335c410b5518c7871b2db661def.jpg"
+    },
+    {
+      "name": "Leo",
+      "sign": "leo",
+      "period": "July 23 - August 22",
+      "pictureUrl": "https://i.pinimg.com/564x/d6/04/77/d604774c746029f92a1217b8b046f020.jpg"
+    },
+    {
+      "name": "Virgo",
+      "sign": "virgo",
+      "period": "August 23 - September 22",
+      "pictureUrl": "https://i.pinimg.com/564x/7a/3e/31/7a3e3148d5060618e1c0996efa37517f.jpg"
+    },
+    {
+      "name": "Libra",
+      "sign": "libra",
+      "period": "September 23 - October 22",
+      "pictureUrl": "https://i.pinimg.com/564x/83/77/e2/8377e2d2a386ef7ac934eb01ce5fec21.jpg"
+    },
+    {
+      "name": "Scorpio",
+      "sign": "scorpio",
+      "period": "October 23 - November 21",
+      "pictureUrl": "https://i.pinimg.com/564x/a1/53/61/a153614c382b19c0fc37d78d52ffa912.jpg"
+    },
+    {
+      "name": "Sagittarius",
+      "sign": "sagittarius",
+      "period": "November 22 - December 21",
+      "pictureUrl": "https://i.pinimg.com/564x/c4/5b/83/c45b83d4aa99d6ef6d416907f828db8b.jpg"
+    },
+    {
+      "name": "Capricorn",
+      "sign": "capricorn",
+      "period": "December 22 - January 19",
+      "pictureUrl": "https://i.pinimg.com/564x/75/05/dc/7505dcfbd5bbaf8cc3365a5ee810a5e1.jpg"
+    },
+    {
+      "name": "Aquarius",
+      "sign": "aquarius",
+      "period": "January 20 - February 18",
+      "pictureUrl": "https://i.pinimg.com/564x/9d/39/2e/9d392e2d5bed98f2e224e74f3880fc3f.jpg"
+    },
+    {
+      "name": "Pisces",
+      "sign": "pisces",
+      "period": "February 19 - March 20",
+      "pictureUrl": "https://i.pinimg.com/564x/b2/f6/a7/b2f6a70b4bc0e9f02872cd98a0380adb.jpg"
+    }
+  ]
+}

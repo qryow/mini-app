@@ -1,0 +1,79 @@
+{
+  "today": "Cегодня",
+  "horoscope": "Гороскоп на сегодня",
+  "back": "Назад",
+  "signs": [
+    {
+      "name": "Овен",
+      "sign": "aries",
+      "period": "21 марта - 19 апреля",
+      "pictureUrl": "https://i.pinimg.com/564x/f2/f8/e3/f2f8e3168c00561108f203d251ad7939.jpg"
+    },
+    {
+      "name": "Телец",
+      "sign": "taurus",
+      "period": "20 апреля - 20 мая",
+      "pictureUrl": "https://i.pinimg.com/564x/3d/e3/a6/3de3a6063483028f7e43dc549413625c.jpg"
+    },
+    {
+      "name": "Близнецы",
+      "sign": "gemini",
+      "period": "21 мая - 20 июня",
+      "pictureUrl": "https://i.pinimg.com/564x/94/bd/b1/94bdb116cd7572b161b8b00dbfdc2eb3.jpg"
+    },
+    {
+      "name": "Рак",
+      "sign": "cancer",
+      "period": "21 июня - 22 июля",
+      "pictureUrl": "https://i.pinimg.com/564x/0c/c1/13/0cc11335c410b5518c7871b2db661def.jpg"
+    },
+    {
+      "name": "Лев",
+      "sign": "leo",
+      "period": "23 июля - 22 августа",
+      "pictureUrl": "https://i.pinimg.com/564x/d6/04/77/d604774c746029f92a1217b8b046f020.jpg"
+    },
+    {
+      "name": "Дева",
+      "sign": "virgo",
+      "period": "23 августа - 22 сентября",
+      "pictureUrl": "https://i.pinimg.com/564x/7a/3e/31/7a3e3148d5060618e1c0996efa37517f.jpg"
+    },
+    {
+      "name": "Весы",
+      "sign": "libra",
+      "period": "23 сентября - 22 октября",
+      "pictureUrl": "https://i.pinimg.com/564x/83/77/e2/8377e2d2a386ef7ac934eb01ce5fec21.jpg"
+    },
+    {
+      "name": "Скорпион",
+      "sign": "scorpio",
+      "period": "23 октября - 21 ноября",
+      "pictureUrl": "https://i.pinimg.com/564x/a1/53/61/a153614c382b19c0fc37d78d52ffa912.jpg"
+    },
+    {
+      "name": "Стрелец",
+      "sign": "sagittarius",
+      "period": "22 ноября - 21 декабря",
+      "pictureUrl": "https://i.pinimg.com/564x/c4/5b/83/c45b83d4aa99d6ef6d416907f828db8b.jpg"
+    },
+    {
+      "name": "Козерог",
+      "sign": "capricorn",
+      "period": "22 декабря - 19 января",
+      "pictureUrl": "https://i.pinimg.com/564x/75/05/dc/7505dcfbd5bbaf8cc3365a5ee810a5e1.jpg"
+    },
+    {
+      "name": "Водолей",
+      "sign": "aquarius",
+      "period": "20 января - 18 февраля",
+      "pictureUrl": "https://i.pinimg.com/564x/9d/39/2e/9d392e2d5bed98f2e224e74f3880fc3f.jpg"
+    },
+    {
+      "name": "Рыбы",
+      "sign": "pisces",
+      "period": "19 февраля - 20 марта",
+      "pictureUrl": "https://i.pinimg.com/564x/b2/f6/a7/b2f6a70b4bc0e9f02872cd98a0380adb.jpg"
+    }
+  ]
+}

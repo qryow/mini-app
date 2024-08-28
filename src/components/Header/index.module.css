@@ -1,0 +1,98 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  color: white;
+}
+
+.header img {
+  width: 140px;
+  cursor: pointer;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.switch > span {
+  position: absolute;
+  top: 32%;
+  pointer-events: none;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  width: 50%;
+  text-align: center;
+}
+
+input.check_toggle_round_flat:checked ~ .off {
+  color: #fff;
+}
+
+input.check_toggle_round_flat:checked ~ .on {
+  color: #fff;
+}
+
+.switch > span.on {
+  left: 0;
+  padding-left: 5px;
+  color: #fff;
+}
+
+.switch > span.off {
+  right: 0;
+  padding-right: 3px;
+  color: #fff;
+}
+
+.check_toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.check_toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+input.check_toggle_round_flat + label {
+  padding: 2px;
+  width: 96px;
+  height: 45px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+input.check_toggle_round_flat + label:before,
+input.check_toggle_round_flat + label:after {
+  display: block;
+  position: absolute;
+  content: "";
+}
+
+input.check_toggle_round_flat + label:after {
+  top: 7px;
+  left: 12px;
+  width: 34px;
+  height: 32px;
+  background-color: rgba(146, 146, 146, 0.5);
+  border-radius: 50%;
+  transition: margin 0.2s;
+}
+
+input.check_toggle_round_flat:checked + label:after {
+  margin-left: 44px;
+}
+
+@media screen and (max-width: 800px) {
+  .header img {
+    width: 110px;
+    cursor: pointer;
+  }
+}
