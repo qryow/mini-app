@@ -11,7 +11,6 @@ const OneZodiac = ({ horoscope, oneZodiac, onClose }) => {
 
   return (
     <div {...handlers} className={style.modal}>
-      <Header />
       <div className="container">
         <button onClick={onClose} className={style.back}>
           {t("back")}
