@@ -93,6 +93,27 @@ input.check_toggle_round_flat:checked + label:after {
 @media screen and (max-width: 800px) {
   .header img {
     width: 110px;
-    cursor: pointer;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header img {
+    width: 70px;
+  }
+  .switch > span {
+    font-size: 10px;
+  }
+  input.check_toggle_round_flat + label {
+    padding: 2px;
+    width: 74px;
+    height: 35px;
+  }
+  input.check_toggle_round_flat:checked + label:after {
+    margin-left: 32px;
+  }
+  input.check_toggle_round_flat + label:after {
+    top: 7px;
+    left: 11px;
+    width: 26px;
+    height: 24px;
   }
 }

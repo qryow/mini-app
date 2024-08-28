@@ -74,3 +74,19 @@
     width: 65%;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .list {
+    margin: 10px auto;
+  }
+  .one_card {
+    padding: 15px 0px;
+  }
+  .one_card_text h4 {
+    font-size: 24px;
+    margin-bottom: -5px;
+  }
+  .one_card p {
+    font-size: 13px;
+  }
+}
