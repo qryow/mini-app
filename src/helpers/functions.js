@@ -1,10 +1,10 @@
-import { botToken } from "./const";
-
 export const getInterfaceLanguage = async () => {
+  console.log(process.env.REACT_APP_BOT_TOKEN);
   const response = await fetch(
-    `https://api.telegram.org/bot${botToken}/getUpdates`
+    `https://api.telegram.org/bot${process.env.REACT_APP_BOT_TOKEN}/getUpdates`
   );
   const { result } = await response.json();
+  console.log(result);
 
   const language = result[result.length - 1].message.from.language_code || "ru";
   return language === "ru" ? "ru" : "en";

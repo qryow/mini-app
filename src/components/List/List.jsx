@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import style from "./index.module.css";
-import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import OneZodiac from "../OneZodiac/OneZodiac";
 import { getOneHoroscope } from "../../helpers/functions";

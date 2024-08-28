@@ -3,10 +3,8 @@ import logo from "../../assets/logo.jpg";
 import { useEffect } from "react";
 import { getInterfaceLanguage } from "../../helpers/functions";
 import { useTranslation } from "react-i18next";
-import { useNavigate } from "react-router-dom";
 
 const Header = () => {
-  const navigate = useNavigate();
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (language) => {
@@ -25,7 +23,7 @@ const Header = () => {
   }, []);
   return (
     <div className={`${style.header} container`}>
-      <img onClick={() => navigate("/")} src={logo} alt="" />
+      <img src={logo} alt="" />
 
       <div className={style.switch}>
         <input

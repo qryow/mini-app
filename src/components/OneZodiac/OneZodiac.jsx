@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import style from "./index.module.css";
-import Header from "../Header/Header";
 import { useSwipeable } from "react-swipeable";
 
 const OneZodiac = ({ horoscope, oneZodiac, onClose }) => {
